@@ -7,7 +7,7 @@
 }
 
 header{
-  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/2112648/pexels-photo-2112648.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(https://images.pexels.com/photos/128299/pexels-photo-128299.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
 
   height: 100vh;
   background-size: cover;
@@ -17,7 +17,7 @@ header{
 ul{
   float: right;
   list-style-type: none;
-  margin-top: 25px;
+  margin-top: 20px;
 }
 ul li{
   display: inline-block;
@@ -41,7 +41,9 @@ ul li.active a{
   color: black;
 }
 
-.merch1 img{
+
+
+.games .img1 ul .joshimg{
   width: 250px;
   height: auto;
   position: absolute;
@@ -49,8 +51,7 @@ ul li.active a{
   left: 35%;
   transform: translate(-50%,-50%);
 }
-
-.merch2 img{
+.games .img1 ul .icyimg{
   width: 250px;
   height: auto;
   position: absolute;
@@ -61,49 +62,29 @@ ul li.active a{
 
 
 
-.merch1 ul{
+.games .img1 ul .joshli{
   position: absolute;
   top: 60%;
-  left: 35%;
+  left: 34.5%;
   transform: translate(-50%,-50%);
   list-style-type: none;
   margin-top: 25px;
-}
-.merch1 ul li{
   display: inline-block;
 }
-.merch1 ul li a{
-  font-family: 'Solway', serif;
-  text-decoration: none;
-  color: #ffff;
-  padding: 5px 20px;
-  border: 1px solid #ffff transparent;
-  transition: 0.6s ease;
-}
-.merch1 ul li a:hover{
-  background-color: #ffff;
-  color: black;
-}
-.merch1 ul li.active a{
-  background-color: #ffff;
-  color: black;
-}
 
-
-
-
-.merch2 ul{
+.games .img1 ul .icyli{
   position: absolute;
   top: 60%;
   left: 65%;
   transform: translate(-50%,-50%);
   list-style-type: none;
   margin-top: 25px;
-}
-.merch2 ul li{
   display: inline-block;
 }
-.merch2 ul li a{
+
+
+
+.games .img1 ul .joshli a{
   font-family: 'Solway', serif;
   text-decoration: none;
   color: #ffff;
@@ -111,14 +92,25 @@ ul li.active a{
   border: 1px solid #ffff transparent;
   transition: 0.6s ease;
 }
-.merch2 ul li a:hover{
+.games .img1 ul .icyli a{
+  font-family: 'Solway', serif;
+  text-decoration: none;
+  color: #ffff;
+  padding: 5px 20px;
+  border: 1px solid #ffff transparent;
+  transition: 0.6s ease;
+}
+
+
+.games .img1 ul .joshli a:hover{
   background-color: #ffff;
   color: black;
 }
-.merch2 ul li.active a{
+.games .img1 ul .icyli a:hover{
   background-color: #ffff;
   color: black;
 }
+
 
 
 
@@ -129,7 +121,7 @@ ul li.active a{
 
 .title{
   position: absolute;
-  top: 35%;
+  top: 30%;
   left: 50%;
   transform: translate(-50%,-50%);
 }
@@ -143,6 +135,8 @@ ul li.active a{
   color: #ffff;
   border: 1px solid #ffff transparent;
 }
+
+
 
 
 
@@ -174,6 +168,8 @@ ul li.active a{
 
 
 
+
+/*Media Queries*/
 @media all and (max-width: 1024px) {
 
 
@@ -190,7 +186,7 @@ ul li.active a{
 
 
 
-  .merch1 ul li a{
+  .games .img1 ul .joshli a{
     font-size: 50px;
     font-family: 'Solway', serif;
     text-decoration: none;
@@ -199,16 +195,9 @@ ul li.active a{
     border: 1px solid #ffff transparent;
     transition: 0.6s ease;
   }
-  .merch1 ul{
-    position: absolute;
-    padding-bottom: 300px;
-    padding-right: 100px;
-    list-style-type: none;
-    margin-top: 25px;
-  }
 
 
-  .merch2 ul li a{
+  .games .img1 ul .icyli a{
     font-size: 50px;
     font-family: 'Solway', serif;
     text-decoration: none;
@@ -217,13 +206,10 @@ ul li.active a{
     border: 1px solid #ffff transparent;
     transition: 0.6s ease;
   }
-  .merch2 ul{
-    position: absolute;
-    padding-bottom: 300px;
-    padding-left: 100px;
-    list-style-type: none;
-    margin-top: 25px;
-  }
+
+
+
+
 
 
 
@@ -233,7 +219,7 @@ ul li.active a{
     margin-top: 25px;
    }
 
-  .merch1 img{
+  .games .img1 ul .joshimg{
     width: 350px;
     height: auto;
     position: absolute;
@@ -242,7 +228,7 @@ ul li.active a{
     transform: translate(-50%,-50%);
    }
 
-   .merch2 img{
+  .games .img1 ul .icyimg{
      width: 350px;
      height: auto;
      position: absolute;

@@ -40,6 +40,7 @@ ul li.active a{
   background-color: #ffff;
   color: black;
 }
+
 .main{
   max-width: 1500px;
   margin: auto;
@@ -61,6 +62,7 @@ ul li.active a{
   color: #ffff;
   border: 1px solid #ffff transparent;
 }
+
 
 
 .language ul .ro{
@@ -90,6 +92,9 @@ ul li.active a{
 }
 
 
+
+
+/*Media Queries*/
 @media all and (max-width: 1024px) {
 
 
@@ -109,6 +114,5 @@ ul li.active a{
     list-style-type: none;
     margin-top: 20px;
    }
-    }
   }
 }
